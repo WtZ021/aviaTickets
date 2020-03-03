@@ -4,6 +4,7 @@ class CurrencyUI {
     this.dictionary = {
       USD: '$',
       EUR: '€',
+      RUB: '₽',
     };
   }
 

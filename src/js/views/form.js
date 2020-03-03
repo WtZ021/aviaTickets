@@ -23,11 +23,13 @@ class FormUI {
   }
 
   get originValue() {
-    return this.origin.value;
+    let origin = this.origin.value.replace(/\s/g, '');
+    return origin;
   }
 
   get destinationValue() {
-    return this.destination.value;
+    let destination = this.destination.value.replace(/\s/g, '');
+    return destination;
   }
 
   get departDateValue() {
